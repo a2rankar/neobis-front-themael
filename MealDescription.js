@@ -1,7 +1,8 @@
-
+// MealDescription.js
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
+import "./MealOfTheDay.css"
 
 function MealDescription() {
   const { id } = useParams();
@@ -29,10 +30,10 @@ function MealDescription() {
           <p>Country: {meal.strArea}</p>
           <p>Ingredients:</p>
           <ul>
-            {Object.entries(meal)
-              .filter(entry => entry[0].startsWith('strIngredient') && entry[1] !== '')
-              .map((entry, index) => (
-                <li key={index}>{entry[1]} - {meal[`strMeasure${index + 1}`]}</li>
+            {Object.keys(meal)
+              .filter(key => key.startsWith('strIngredient') && meal[key])
+              .map((key, index) => (
+                <li key={index}>{meal[key]} - {meal[`strMeasure${index + 1}`]}</li>
               ))}
           </ul>
           <p>Instructions: {meal.strInstructions}</p>
