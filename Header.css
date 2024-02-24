@@ -12,8 +12,7 @@
     justify-content: center;
     font-size: 25px;
     color: aliceblue;
-        font-family: 'YourChosenFont', sans-serif; /* Замените 'YourChosenFont' на выбранный вами шрифт */
-        /* Другие стили, такие как размер шрифта, цвет и т. д., могут быть добавлены здесь */
-      
+        font-family: 'YourChosenFont', sans-serif;
+        
       
 }
