@@ -1,0 +1,26 @@
+
+h2 {
+  margin: 0;
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+.text-part h2{
+  color: rgb(10, 10, 10);
+  justify-content: center;
+  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+h1 {
+  color: #d49726;
+  text-decoration: none;
+
+}
+a {
+  color: orange;
+  text-decoration: none;
+
+}
