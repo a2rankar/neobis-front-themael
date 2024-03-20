@@ -1,0 +1,57 @@
+.search-panel {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.image {
+    margin-left: 40px;
+
+    width: 40%;
+}
+.meal-info {
+    align-items: center;
+    justify-content: space-between;
+}
+.search-panel h2 {
+    margin-top: 50px;
+    color: black;
+}
+
+input[type="text"] {
+    width: 300px; 
+    height: 41px; 
+    margin-bottom: 50px;
+    background-color: #dcdcdc;
+    border: none;
+    border-radius: 3px;
+    font-family: Raleway;
+    height: 100%;
+    outline: none;
+    padding: 15px;
+    transition: all .15s;
+
+  }
+  button {
+    width: 70px; 
+    height: 44px; 
+    position: absolute;
+    transform: translateX(-100%);
+    background: #d49726;
+    border: 0;
+    border-radius: 0 3px 3px 0;
+     color: #fff;
+    cursor: pointer;
+    font-family: Raleway;
+    
+ 
+  
+   
+    width: 100px;
+
+
+
+    align-items: center;  
+
+  }
+
+  

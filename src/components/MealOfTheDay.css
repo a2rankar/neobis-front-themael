@@ -1,0 +1,75 @@
+* {
+    font-family: Cardo;
+    padding: 0;
+    margin: 0;
+}
+.meal-of-the-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .meal-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .desc {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  
+  }
+.desc h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align: center;
+        color: rgb(19, 19, 19);
+  }
+  .desc h3 {
+    white-space: normal; /* Разрешает перенос текста на новую строку */
+    color: #d49726;
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 58px;
+    margin-bottom: 2rem;
+  }
+  
+  .image img{
+    padding-top: 40px;
+    border-radius: 8px;
+    box-shadow: 10px 12px 29px -14px rgba(0,0,0,.75);
+    object-fit: cover;
+    width: 90%;
+   
+  }
+  
+  .meal-of-the-day h2 {
+    margin-bottom: 20px; /* Для создания отступа между заголовком и контентом */
+  }
+
+  .category-area {
+    display: flex;
+    align-items: center; /* Выравнивание элементов по вертикали */
+    /* margin-left: 66px; */
+  
+  }
+  
+  .category-area p {
+    margin: 0; /* Убираем отступы у параграфов */
+    font-size: 18px;
+    color:black;
+   
+  }
+  
+  .category-area span {
+    margin: 0 5px; /* Добавляем небольшой отступ между вертикальной чертой и текстом */
+  }
+  p {
+    margin-left: 55px;
+  }
